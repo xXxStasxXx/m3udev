@@ -1,2 +1,1 @@
-# m3udev
-Here are m3u files for .devGaming MTA RP server
+Tak naprawde to tutaj są indexy do mojego RTMP XD
