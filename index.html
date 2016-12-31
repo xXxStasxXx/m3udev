@@ -1,0 +1,37 @@
+<head>
+	<style>
+		.right {
+			position: absolute;
+			right: 0px;
+			width: 300px;
+			border: 3px solid #73AD21;
+			padding: 10px;
+		}
+		body{
+			margin: 15;
+		}
+		.Logo {
+			background-color: #b3ffd9;
+			width: 500px;
+		}
+	</style>
+  <link href="http://vjs.zencdn.net/5.8.8/video-js.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://convertico.com/images/5867a28b382ba/Icon.ico">
+
+  <!-- If you'd like to support IE8 -->
+  <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+</head>
+
+<body bgcolor="#c6ecd9">
+	<center><div class="Logo"><img src="http://i.imgur.com/YD3XBYE.png" alt="Logotyp"></div></center>
+  <video id="my-video" class="video-js" controls preload="auto" width="1280" height="720"
+  poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+    <source src="rtmp://185.99.134.219/live/test" type='video/H.264'>
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a web browser that
+      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+
+  <script src="http://vjs.zencdn.net/5.8.8/video.js"></script>
+</body>
